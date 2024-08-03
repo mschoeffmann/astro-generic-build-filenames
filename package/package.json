@@ -1,21 +1,14 @@
 {
-	"name": "package-name",
-	"version": "0.0.0",
-	"description": "TODO:",
+	"name": "astro-generic-build-filenames",
+	"version": "0.0.1",
+	"description": "This package is designed to eliminate confusion caused by the default naming convention, which names files after their entry points.",
 	"author": {
-		"email": "TODO:",
-		"name": "TODO:",
-		"url": "TODO:"
+		"name": "Matthias Schöffmann",
+		"url": "https://github.com/mschoeffmann"
 	},
 	"license": "MIT",
-	"keywords": [
-		"astro-integration",
-		"astro-component",
-		"withastro",
-		"astro",
-		"TODO:"
-	],
-	"homepage": "TODO:",
+	"keywords": ["astro-integration", "astro-component", "withastro", "astro"],
+	"homepage": "https://github.com/mschoeffmann/astro-generic-build-filenames",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -39,6 +32,7 @@
 		"astro-integration-kit": "^0.16.0"
 	},
 	"devDependencies": {
+		"rollup": "^4.20.0",
 		"tsup": "^8.2.3"
 	}
 }

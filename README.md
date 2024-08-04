@@ -11,6 +11,8 @@ This integration provides a wrapper around the originally used `vite.build.rollu
 
 To see how to get started, check out the [package README](./package/README.md)
 
+To see latest changes, check out the [package CHANGELOG](./package/CHANGELOG.md)
+
 ## Licensing
 
 [MIT Licensed](./LICENSE). Made with ❤️ by [Matthias Schöffmann](https://github.com/mschoeffmann).

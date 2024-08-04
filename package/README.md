@@ -64,6 +64,10 @@ export default defineConfig({
 
 No configuration needed ... So far.
 
+## To-Do
+- [ ] Add configuration for filenames
+- [ ] Add tests (?)
+
 ## Contributing
 
 This package is structured as a monorepo:
@@ -91,4 +95,4 @@ You can now edit files in `package`. Please note that making changes to those fi
 
 ## Acknowledgements
 
-Based on 
+Based on [astro-integration-template](https://github.com/florian-lefebvre/astro-integration-template/tree/main)

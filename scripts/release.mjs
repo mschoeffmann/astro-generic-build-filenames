@@ -43,8 +43,9 @@ const main = async () => {
 	await run("pnpm changeset publish");
 	await run("git push --follow-tags");
 	const tag = (await run("git describe --abbrev=0")).replace("\n", "");
+	const name = tag.split("@").pop();
 	await run(
-		`gh release create ${tag} --title ${tag} --notes "Please refer to [CHANGELOG.md](https://github.com/mschoeffmann/astro-generic-build-filenames/blob/main/package/CHANGELOG.md) for details."`,
+		`gh release create ${tag} --title ${name} --notes "Please refer to [CHANGELOG.md](https://github.com/mschoeffmann/astro-generic-build-filenames/blob/main/package/CHANGELOG.md) for details."`,
 	);
 };
 

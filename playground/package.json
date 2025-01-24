@@ -11,15 +11,15 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@astrojs/tailwind": "^5.1.0",
-		"astro": "^4.13.0",
-		"astro-integration-kit": "^0.16.0",
+		"@astrojs/tailwind": "^5.1.5",
+		"astro": "^5.1.9",
 		"astro-generic-build-filenames": "workspace:*",
-		"tailwindcss": "^3.4.7"
+		"astro-integration-kit": "^0.18.0"
 	},
 	"devDependencies": {
-		"@astrojs/check": "^0.9.1",
-		"@types/node": "^20.14.13",
-		"typescript": "^5.5.4"
+		"@astrojs/check": "^0.9.4",
+		"@types/node": "^20.17.16",
+		"tailwindcss": "^3.4.17",
+		"typescript": "^5.7.3"
 	}
 }

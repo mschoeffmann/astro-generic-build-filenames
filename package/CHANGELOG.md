@@ -1,5 +1,12 @@
 # astro-generic-build-filenames
 
+## 0.2.0
+
+### Minor Changes
+
+- update readme
+- update dependencies
+
 ## 0.1.1
 
 ### Patch Changes
@@ -8,6 +15,6 @@
 
 ## 0.1.0
 
-### Minor Changes
+### Major Changes
 
-- 336beff: first version
+- first version

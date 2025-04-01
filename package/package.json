@@ -1,13 +1,18 @@
 {
 	"name": "astro-generic-build-filenames",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"description": "This package is designed to eliminate confusion caused by the default naming convention, which names files after their entry points.",
 	"author": {
 		"name": "Matthias Schöffmann",
 		"url": "https://github.com/mschoeffmann"
 	},
 	"license": "MIT",
-	"keywords": ["astro-integration", "astro-component", "withastro", "astro"],
+	"keywords": [
+		"astro-integration",
+		"astro-component",
+		"withastro",
+		"astro"
+	],
 	"homepage": "https://github.com/mschoeffmann/astro-generic-build-filenames",
 	"publishConfig": {
 		"access": "public"
@@ -19,7 +24,9 @@
 			"default": "./dist/index.js"
 		}
 	},
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"dev": "tsup --watch",
 		"build": "tsup"

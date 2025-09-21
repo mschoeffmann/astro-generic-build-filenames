@@ -1,9 +1,8 @@
 import tailwind from "@astrojs/tailwind";
+import { defineConfig } from "astro/config";
+import genericBuildFilenames from "astro-generic-build-filenames";
 import { createResolver } from "astro-integration-kit";
 import { hmrIntegration } from "astro-integration-kit/dev";
-import { defineConfig } from "astro/config";
-
-import genericBuildFilenames from "astro-generic-build-filenames";
 
 // https://astro.build/config
 export default defineConfig({

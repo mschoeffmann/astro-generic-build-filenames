@@ -1,5 +1,13 @@
 # astro-generic-build-filenames
 
+## 0.5.1
+
+### Patch Changes
+
+- 8489cd5: update package manager to pnpm v10.17.1
+- c9c7dd3: update dependencies
+- bfe8437: update biome and make linter happy
+
 ## 0.5.0
 
 ### Minor Changes

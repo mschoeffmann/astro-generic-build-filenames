@@ -1,5 +1,11 @@
 # astro-generic-build-filenames
 
+## 0.5.2
+
+### Patch Changes
+
+- f536c38: update dependencies
+
 ## 0.5.1
 
 ### Patch Changes

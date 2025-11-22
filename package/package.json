@@ -1,6 +1,6 @@
 {
 	"name": "astro-generic-build-filenames",
-	"version": "0.5.1",
+	"version": "0.5.2",
 	"description": "This package is designed to eliminate confusion caused by the default naming convention, which names files after their entry points.",
 	"author": {
 		"name": "Matthias Schöffmann",

@@ -1,5 +1,12 @@
 # astro-generic-build-filenames
 
+## 0.5.4
+
+### Patch Changes
+
+- a649408: update dependencies
+- a56be1e: update package manager to pnpm v10.26.2
+
 ## 0.5.3
 
 ### Patch Changes

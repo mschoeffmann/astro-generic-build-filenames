@@ -39,7 +39,7 @@
 		"astro-integration-kit": "^0.19.1"
 	},
 	"devDependencies": {
-		"rollup": "^4.53.5",
+		"rollup": "^4.54.0",
 		"tsup": "^8.5.1"
 	}
 }

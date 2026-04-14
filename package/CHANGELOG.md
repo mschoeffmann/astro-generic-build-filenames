@@ -1,5 +1,11 @@
 # astro-generic-build-filenames
 
+## 0.5.6
+
+### Patch Changes
+
+- 54449fb: improve release script
+
 ## 0.5.5
 
 ### Patch Changes

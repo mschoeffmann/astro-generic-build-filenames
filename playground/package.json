@@ -17,8 +17,8 @@
 		"astro-integration-kit": "^0.19.1"
 	},
 	"devDependencies": {
-		"@astrojs/check": "^0.9.8",
-		"@types/node": "^20.19.39",
+		"@astrojs/check": "^0.9.9",
+		"@types/node": "^20.19.41",
 		"tailwindcss": "^3.4.19",
 		"typescript": "^5.9.3"
 	}

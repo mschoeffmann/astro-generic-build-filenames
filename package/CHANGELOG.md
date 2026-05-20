@@ -1,5 +1,11 @@
 # astro-generic-build-filenames
 
+## 0.6.1
+
+### Patch Changes
+
+- 131b3d5: re-run publish script
+
 ## 0.6.0
 
 ### Minor Changes

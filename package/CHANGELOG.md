@@ -1,5 +1,15 @@
 # astro-generic-build-filenames
 
+## 0.6.0
+
+### Minor Changes
+
+- 0f9a7f2: update dependencies
+
+### Patch Changes
+
+- 651800f: make linter happy
+
 ## 0.5.6
 
 ### Patch Changes

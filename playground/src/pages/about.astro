@@ -1,0 +1,27 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="About">
+	<main>
+		<h1>About</h1>
+		<button type="button" data-greet data-name="About page">Say hello</button>
+	</main>
+</Layout>
+
+<script>
+	import { greet } from "../scripts/greeting.js";
+
+	for (const element of document.querySelectorAll<HTMLElement>("[data-greet]")) {
+		greet(element);
+	}
+</script>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		max-width: 800px;
+		color: white;
+	}
+</style>

@@ -7,14 +7,16 @@ After `astro build`, asset files have a name based on the entry point, which res
 
 Provided workarounds like directly setting `vite.build.rollupOptions.output.entryFileNames` do not work reliably with adapters like `@astrojs/vercel` or `@astrojs/cloudflare`.
 
-This integration provides a wrapper around the originally used `vite.build.rollupOptions.output.*FileNames` keys and just replaces `[name]` with `'entry'`, `'chunk'` or `'asset'`.
+This integration wraps Astro's own `entryFileNames`, `chunkFileNames` and `assetFileNames` output options and replaces the name with `entry`, `chunk` or `asset`. All files in `_astro` end up named like `entry.[hash].js`, `chunk.[hash].js` or `asset.[hash].css`. Server-side files are not renamed.
+
+Supports Astro 5, 6 and 7 (Rollup and Rolldown).
 
 
 ## Usage
 
 ### Prerequisites
 
-Your normal Astro project.
+An Astro project using Astro 5, 6 or 7.
 
 ### Installation
 
@@ -66,28 +68,10 @@ No configuration needed ... So far.
 
 ## To-Do
 - [ ] Add configuration for filenames
-- [ ] Add tests (?)
 
 ## Contributing
 
-This package is structured as a monorepo:
-
-- `playground` contains code for testing the package
-- `package` contains the actual package
-
-Install dependencies using pnpm: 
-
-```bash
-pnpm i --frozen-lockfile
-```
-
-Start the playground and package watcher:
-
-```bash
-pnpm dev
-```
-
-You can now edit files in `package`. Please note that making changes to those files may require restarting the playground dev server.
+See the [development workflow](https://github.com/mschoeffmann/astro-generic-build-filenames#development) in the repository README.
 
 ## Licensing
 

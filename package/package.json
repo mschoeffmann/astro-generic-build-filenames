@@ -28,18 +28,18 @@
 		"dist"
 	],
 	"scripts": {
-		"dev": "tsup --watch",
-		"build": "tsup"
+		"dev": "tsdown --watch",
+		"build": "tsdown",
+		"typecheck": "tsc --noEmit"
 	},
 	"type": "module",
 	"peerDependencies": {
-		"astro": "^4.13.0 || ^5.0.0"
-	},
-	"dependencies": {
-		"astro-integration-kit": "^0.20.0"
+		"astro": "^5.0.0 || ^6.0.0 || ^7.0.0"
 	},
 	"devDependencies": {
-		"rollup": "^4.64.0",
-		"tsup": "^8.5.1"
+		"astro": "^7.3.5",
+		"publint": "^0.3.25",
+		"tsdown": "^0.23.0",
+		"typescript": "^6.0.3"
 	}
 }

@@ -60,8 +60,17 @@ import Layout from "../layouts/Layout.astro";
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
 		</ul>
+		<button type="button" data-greet data-name="Index page">Say hello</button>
 	</main>
 </Layout>
+
+<script>
+	import { greet } from "../scripts/greeting.js";
+
+	for (const element of document.querySelectorAll<HTMLElement>("[data-greet]")) {
+		greet(element);
+	}
+</script>
 
 <style>
 	main {

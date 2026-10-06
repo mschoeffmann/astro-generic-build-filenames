@@ -7,19 +7,17 @@
 		"dev": "astro dev",
 		"start": "astro dev",
 		"build": "astro check && astro build",
+		"test": "astro build && node scripts/verify-output.mjs",
 		"preview": "astro preview",
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@astrojs/tailwind": "^6.0.2",
-		"astro": "^5.18.2",
-		"astro-generic-build-filenames": "workspace:*",
-		"astro-integration-kit": "^0.20.0"
+		"astro": "^7.3.5",
+		"astro-generic-build-filenames": "workspace:*"
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.10",
-		"@types/node": "^20.19.43",
-		"tailwindcss": "^3.4.19",
-		"typescript": "^5.9.3"
+		"@types/node": "^24.19.1",
+		"typescript": "^6.0.3"
 	}
 }

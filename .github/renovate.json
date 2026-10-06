@@ -10,9 +10,14 @@
 		{
 			"groupName": "all dependencies",
 			"groupSlug": "all",
-			"matchPackagePatterns": ["*"],
+			"matchPackageNames": ["*"],
 			"schedule": ["before 4am on Monday"],
 			"rangeStrategy": "bump"
+		},
+		{
+			"description": "Peer dependency range is maintained manually and tested via test:compat",
+			"matchDepTypes": ["peerDependencies"],
+			"enabled": false
 		}
 	],
 	"ignoreDeps": ["node"]

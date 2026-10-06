@@ -36,10 +36,10 @@
 		"astro": "^4.13.0 || ^5.0.0"
 	},
 	"dependencies": {
-		"astro-integration-kit": "^0.19.1"
+		"astro-integration-kit": "^0.20.0"
 	},
 	"devDependencies": {
-		"rollup": "^4.60.4",
+		"rollup": "^4.64.0",
 		"tsup": "^8.5.1"
 	}
 }

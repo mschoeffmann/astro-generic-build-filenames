@@ -1,5 +1,12 @@
 # astro-generic-build-filenames
 
+## 0.6.2
+
+### Patch Changes
+
+- 53c8fd9: update dependencies
+- f359621: migrate biome config
+
 ## 0.6.1
 
 ### Patch Changes
